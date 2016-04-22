@@ -1,0 +1,14 @@
+$size: 150px; // cube length
+
+.cube {
+  width: $size;
+  height: $size;
+  position: relative;
+}
+.cube-face {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background: red;
+  opacity: 0.5;
+}
